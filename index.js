@@ -20,7 +20,8 @@ const __filename = fileURLToPath(import.meta.url);
 // and we don't want to do this any more difficult for you than it needs to be
 // so if you hit this error, it means you're on a correct path!
 // the error is a simple typo, i'm sure you'll know what's up...
-const __dirname = dirname(__filenameeeeee);
+// const __dirname = dirname(__filenameeeeee);
+const __dirname = dirname(__filename);
 
 const app = express();
 app.use(favicon(path.join(__dirname, 'app', 'public', 'img', 'favicon.ico')));
